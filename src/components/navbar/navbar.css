@@ -1,0 +1,129 @@
+.gpt3__navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+    color: #fff;
+    position: relative;
+}
+
+.xmark,
+.bars {
+    display: none;
+    cursor: pointer;
+}
+
+.gpt3__navbar-links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.gpt3__navbar-links-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.gpt3__navbar-links-logo img {
+    width: 62.557px;
+    height: 16.016px
+}
+
+.gpt3__navbar-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__navbar-links-container a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0 1rem;
+    transition: 0.3s;
+}
+.gpt3__navbar-links-container a:hover {
+    color: var(--subtext-color);
+}
+
+.gpt3__navbar-sign button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FF4820;
+    color: #fff;
+    border: 1px solid #FF4820;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.gpt3__navbar-sign button:hover {
+    background-color: transparent;
+    color: #FF4820;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gpt3__navbar-links-container-menu {
+    display: none;
+}
+
+.gpt3__navbar-links-menu {
+    display: none;
+}
+
+
+@media (min-width: 450px) and (max-width: 991px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-links-container {
+        display: none;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-links-container-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .xmark,
+    .bars {
+        display: block;
+    }
+
+    .gpt3__navbar-links-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        padding: 1rem;
+        border-radius: 6px;
+        background-color: #031B34;
+    }
+    .gpt3__navbar-sign-menu button{
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 10px;
+        background-color: #FF4820;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .gpt3__navbar-links-container-none {
+        display: none;
+    }
+}
