@@ -4,7 +4,7 @@ import Brands from "./components/brands/Brands";
 import WhatGPT from "./components/whatGPT-3/WhatGPT";
 import Features from "./components/features/Features";
 import Feature from "./components/feature/Feature";
-import Cta from "./components/cta/CTA";
+import Cta from "./components/cta/Cta";
 import Blog from "./components/blog/Blog";
 import Footer from "./components/footer/Footer";
 import "./App.css";
