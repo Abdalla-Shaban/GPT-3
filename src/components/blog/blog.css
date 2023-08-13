@@ -1,0 +1,133 @@
+.gpt3__blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__blog-heading {
+    flex: 1;
+}
+
+.gpt3__blog-heading h1 {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -2.48px;
+    margin-bottom: 3rem;
+}
+
+.gpt3__blog-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.gtp3__blog-group-a__blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.gtp3__blog-group-a__blog-card-text {
+    background: #042C54;
+    padding: 1rem 1rem 0.3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.gtp3__blog-group-a__blog-card-text h2 {
+    color: #FFF;
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.287px;
+}
+
+.gtp3__blog-group-a__blog-card-text p {
+    color: #FFF;
+    font-size: 11.649px;
+    font-weight: 700;
+    line-height: 34.947px;
+}
+
+.gtp3__blog-group-a__blog-card-text p:last-child {
+    margin-top: auto;
+}
+
+.gtp3__blog-group-a__blog-card {
+    width: 417px;
+}
+
+.gtp3__blog-group-a__blog-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gtp3__blog-group-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.gtp3__blog-group-b__blog-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gtp3__blog-group-b__blog-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gtp3__blog-group-b__blog-card-text {
+    flex: 1;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0.3rem;
+    background: #042C54;
+}
+
+.gtp3__blog-group-b__blog-card-text h2 {
+    color: #FFF;
+    font-size: 19.315px;
+    font-weight: 800;
+    line-height: 30.287px;
+    margin-bottom: 2rem;
+}
+
+.gtp3__blog-group-b__blog-card-text p {
+    color: #FFF;
+    font-size: 11.649px;
+    font-weight: 700;
+    line-height: 34.947px;
+}
+
+
+.gtp3__blog-group-b__blog-card-text p:last-child {
+    margin-top: auto;
+}
+
+@media (max-width: 1100px) {
+
+    .gpt3__blog-heading h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .gpt3__blog-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .gtp3__blog-group-a__blog-card {
+        width: 100%;
+    }
+
+    .gtp3__blog-group-b__blog-card {
+        width: 100%;
+    }
+}
