@@ -1,0 +1,117 @@
+.gpt3__footer {
+    background: #031B34;
+}
+
+.gpt3__footer-content-intro h1 {
+    text-align: center;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -2.48px;
+}
+
+.gpt3__footer-content-intro button {
+    display: block;
+    padding: 1rem;
+    margin: 3rem auto;
+    background: transparent;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+.gpt3__footer-content-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.gpt3__footer-content-logo {
+    margin-right: 4rem;
+}
+
+.gpt3__footer-content-logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-content-logo p {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.gpt3__footer-content-links h3,
+.gpt3__footer-content-compony h3,
+.gpt3__footer-content-info h3 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.gpt3__footer-content-links ul,
+.gpt3__footer-content-compony ul,
+.gpt3__footer-content-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gpt3__footer-content-links ul li,
+.gpt3__footer-content-compony ul li,
+.gpt3__footer-content-info ul li {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.gpt3__footer-copyright {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: #031B34;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 450px) and (max-width: 991px) {
+    .gpt3__footer-content-intro h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .gpt3__footer-content-intro button {
+        margin: 2rem auto;
+    }
+
+    .gpt3__footer-content-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .gpt3__footer-content-links ul,
+    .gpt3__footer-content-compony ul,
+    .gpt3__footer-content-info ul {
+        gap: 10px;
+    }
+
+    .gpt3__footer-content-links ul li,
+    .gpt3__footer-content-compony ul li {
+        text-decoration: underline;
+    }
+
+    .gpt3__footer-copyright {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        background: #031B34;
+        padding-bottom: 2rem;
+    }
+}
