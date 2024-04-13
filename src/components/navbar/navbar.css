@@ -43,6 +43,7 @@
     margin: 0 1rem;
     transition: 0.3s;
 }
+
 .gpt3__navbar-links-container a:hover {
     color: var(--subtext-color);
 }
@@ -58,6 +59,7 @@
     transition: 0.3s;
     cursor: pointer;
 }
+
 .gpt3__navbar-sign button:hover {
     background-color: transparent;
     color: #FF4820;
@@ -78,7 +80,7 @@
 }
 
 
-@media (min-width: 450px) and (max-width: 991px) {
+@media (max-width: 1100px) {
     .gpt3__navbar {
         padding: 2rem;
     }
@@ -112,7 +114,8 @@
         border-radius: 6px;
         background-color: #031B34;
     }
-    .gpt3__navbar-sign-menu button{
+
+    .gpt3__navbar-sign-menu button {
         padding: 10px 20px;
         font-size: 18px;
         font-weight: 500;
@@ -123,6 +126,7 @@
         border-radius: 4px;
         cursor: pointer;
     }
+
     .gpt3__navbar-links-container-none {
         display: none;
     }

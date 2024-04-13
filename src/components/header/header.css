@@ -52,6 +52,7 @@
     transition: 0.3s;
     cursor: pointer;
 }
+
 .gpt3__header-content__input button:hover {
     background-color: transparent;
     color: #FF4820;
@@ -104,7 +105,7 @@
 
 
 
-@media (min-width: 450px) and (max-width: 991px){
+@media (max-width: 1199px) {
     .gpt3__header {
         flex-direction: column;
     }
@@ -151,4 +152,10 @@
         width: 300px;
     }
 
+}
+
+@media (min-width: 1200px) {
+    .gpt3__header {
+        flex-direction: row;
+    }
 }
