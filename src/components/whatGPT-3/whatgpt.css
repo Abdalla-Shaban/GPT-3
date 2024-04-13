@@ -118,7 +118,7 @@
     line-height: 30px;
 }
 
-@media (min-width: 450px) and (max-width: 991px) {
+@media (max-width: 991px) {
     .gpt-3__whatgpt-content-intro {
         display: flex;
         flex-direction: column;

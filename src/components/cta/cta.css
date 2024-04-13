@@ -45,7 +45,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .gpt3__cta {
         flex-direction: column;
     }

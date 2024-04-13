@@ -41,6 +41,7 @@
 }
 
 .gpt3__features-container div h3 {
+    min-width: 150px;
     flex: 1;
     position: relative;
     color: #FFF;
@@ -73,7 +74,11 @@
 
 
 
-@media (min-width: 450px) and (max-width: 991px) {
+@media (max-width: 991px) {
+    .gpt3__features-intro {
+        flex: auto;
+    }
+
     .gpt3__features-intro h1 {
         font-size: 28px;
         line-height: 37px;

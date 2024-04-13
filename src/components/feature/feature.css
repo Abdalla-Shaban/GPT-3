@@ -58,7 +58,20 @@
     line-height: 30px;
 }
 
-@media (min-width: 450px) and (max-width: 991px) {
+@media (max-width: 768px) {
+    .gpt3__feature-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gpt3__feature-image img {
+        width: 300px;
+        height: 368px;
+    }
+}
+
+@media (max-width: 1200px) {
     .gpt3__feature {
         flex-direction: column;
     }
@@ -68,10 +81,7 @@
         margin-bottom: 3rem;
     }
 
-    .gpt3__feature-image img {
-        width: 300px;
-        height: 368px;
-    }
+
 
     .gpt3__feature-content p:first-child {
         font-size: 14px;
