@@ -80,14 +80,14 @@
     padding-bottom: 2rem;
 }
 
-@media (min-width: 450px) and (max-width: 991px) {
+@media (max-width: 768px) {
     .gpt3__footer-content-intro h1 {
-        font-size: 42px;
-        line-height: 55px;
+        font-size: 32px;
+        line-height: 45px;
     }
 
     .gpt3__footer-content-intro button {
-        margin: 2rem auto;
+        margin: 1rem auto;
     }
 
     .gpt3__footer-content-container {
