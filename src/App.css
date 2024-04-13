@@ -43,13 +43,13 @@ ul {
   margin: 4rem 6rem;
 }
 
-@media (max-width: 450px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .section__padding {
-    padding: 2rem ;
+    padding: 2rem;
   }
-  
+
   .section__margin {
-    margin: 2rem ;
+    margin: 2rem;
   }
-  
+
 }
